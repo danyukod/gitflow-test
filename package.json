@@ -2,6 +2,7 @@
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4"
   },
   "name": "gitflow-test",
@@ -161,5 +162,10 @@
     "url": "https://github.com/danyukod/gitflow-test/issues"
   },
   "homepage": "https://github.com/danyukod/gitflow-test#readme",
-  "description": ""
+  "description": "",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
